@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.subspec "FaceDetectorMLKit" do |ss|
     ss.dependency 'react-native-camera/RN'
     ss.dependency 'react-native-camera/RCT'
-    ss.dependency 'GoogleMLKit/FaceDetection'
+    ss.dependency 'GoogleMobileVision/FaceDetector', '~> 1.1.0'
   end
   
   s.subspec "BarcodeDetectorMLKit" do |ss|
